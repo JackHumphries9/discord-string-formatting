@@ -1,4 +1,4 @@
-enum TimestampStyle {
+export enum TimestampStyle {
 	ShortTime = "t",
 	LongTime = "T",
 	ShortDate = "d",
@@ -8,7 +8,7 @@ enum TimestampStyle {
 	RelativeTime = "R",
 }
 
-enum CodeBlockLanguage {
+export enum CodeBlockLanguage {
 	Apache = "apache",
 	Bash = "bash",
 	C = "c",

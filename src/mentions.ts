@@ -60,3 +60,12 @@ const mentionCommand = (command: string): string => {
 	}
 	return `</${command}>`;
 };
+
+export {
+	mentionUser,
+	mentionChannel,
+	mentionRole,
+	mentionEveryone,
+	mentionHere,
+	mentionCommand,
+};
